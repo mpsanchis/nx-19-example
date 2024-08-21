@@ -5151,6 +5151,13 @@
   dependencies:
     "@nx/js" "19.6.0-beta.6"
 
+"@nrwl/nx-plugin@19.6.0-beta.6":
+  version "19.6.0-beta.6"
+  resolved "https://registry.yarnpkg.com/@nrwl/nx-plugin/-/nx-plugin-19.6.0-beta.6.tgz#140e7eca9072d1de2167dfa8b824cfaa48ecafbc"
+  integrity sha512-7rTQcjHh47i2fApEuTLlFxu9PbxObXwB0uPDhIItwgdp3sbJPRmfFd0btqrGdlSjvweuoYkW3oI3t+D/Ju0IIg==
+  dependencies:
+    "@nx/plugin" "19.6.0-beta.6"
+
 "@nrwl/react@19.6.0-beta.6":
   version "19.6.0-beta.6"
   resolved "https://registry.yarnpkg.com/@nrwl/react/-/react-19.6.0-beta.6.tgz#4e7e71eaec24d47bff43361b88e1c0a1df529079"
@@ -5381,6 +5388,19 @@
   version "19.6.0-beta.6"
   resolved "https://registry.yarnpkg.com/@nx/nx-win32-x64-msvc/-/nx-win32-x64-msvc-19.6.0-beta.6.tgz#357fe06657d2b51d44a5fc30b3face6fee44ccc6"
   integrity sha512-A+3/uZSr9VQYyv6btGtyfjNbE8hZ7ISb73uybcDCgFAxWOmUcaIGOgoB9xFmmWwBZHKwY8YmR8EwMC6Z6Imv9Q==
+
+"@nx/plugin@19.6.0-beta.6":
+  version "19.6.0-beta.6"
+  resolved "https://registry.yarnpkg.com/@nx/plugin/-/plugin-19.6.0-beta.6.tgz#6bc0c03bf23e963303954bc63301524437574365"
+  integrity sha512-VhLDJckfYw1tOMdXfQvKuwzeswsFT2oLOzlV5XLEXN1ZvjjnjRNscldYjq6kL3lr8N1jA0icZbNOk7B+xe4ySA==
+  dependencies:
+    "@nrwl/nx-plugin" "19.6.0-beta.6"
+    "@nx/devkit" "19.6.0-beta.6"
+    "@nx/eslint" "19.6.0-beta.6"
+    "@nx/jest" "19.6.0-beta.6"
+    "@nx/js" "19.6.0-beta.6"
+    fs-extra "^11.1.0"
+    tslib "^2.3.0"
 
 "@nx/react@19.6.0-beta.6":
   version "19.6.0-beta.6"
