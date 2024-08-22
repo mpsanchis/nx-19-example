@@ -1,0 +1,14 @@
+{
+  "executors": {
+    "echo-vars": {
+      "implementation": "./src/executors/echo-vars/executor",
+      "schema": "./src/executors/echo-vars/schema.json",
+      "description": "echo-vars executor"
+    },
+    "export-vars": {
+      "implementation": "./src/executors/export-vars/executor",
+      "schema": "./src/executors/export-vars/schema.json",
+      "description": "export-vars executor"
+    }
+  }
+}

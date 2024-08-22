@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/schema",
+  "version": 2,
+  "title": "ExportVars executor",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "paths": {
+      "description": "List of directories (relative paths from worspace root) where to export a .env with the variables",
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "string",
+        "description": "Directory path"
+      }
+    },
+    "vars": {
+      "description": "List of variables to write out to .env file(s)",
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "string",
+        "description": "Variable with the syntax NAME=value"
+      }
+    }
+  },
+  "required": []
+}
