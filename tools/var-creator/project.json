@@ -1,0 +1,20 @@
+{
+  "name": "var-creator",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "targets": {
+    "create-vars": {
+      "executor": "my-plugin:export-vars",
+      "options": {
+        "vars": ["FOO=bar"],
+        "paths": [
+          "fake",
+          "fake/dom1",
+          "fake/dom1/p2",
+          "fake/dom2",
+          "fake/dom2/p3",
+          "fake/p1"
+        ]
+      }
+    }
+  }
+}
