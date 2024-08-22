@@ -1,0 +1,13 @@
+{
+  "name": "fake-workspace",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "nx:noop"
+    },
+    "release-me": {
+      "executor": "nx:noop"
+    }
+  }
+}

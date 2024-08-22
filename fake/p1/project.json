@@ -1,0 +1,19 @@
+{
+  "name": "fake-project-1",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "implicitDependencies": ["fake-workspace"],
+  "targets": {
+    "build": {
+      "dependsOn": ["^build"]
+    },
+    "release-me": {
+      "executor": "nx:noop",
+      "dependsOn": ["echo-vars"]
+    },
+    "echo-vars": {
+      "executor": "my-plugin:echo-vars",
+      "dependsOn": ["build"]
+    }
+  }
+}
